@@ -1,0 +1,16 @@
+
+	gcc bof1_64.c -z execstack -fno-stack-protector -o bof1_64
+
+	gcc bof1_32.c -z execstack -fno-stack-protector -m32 -o bof1_32
+
+	gcc bof2.c -z execstack -fno-stack-protector -o bof2_64
+
+	gcc bof2.c -z execstack -fno-stack-protector -m32 -o bof2_32
+
+	gcc bof3_64.c -z execstack -fno-stack-protector -o bof3_64
+
+	gcc bof3_32.c -z execstack -fno-stack-protector -m32 -o bof3_32
+
+	gcc bof4_32.c -z execstack -fno-stack-protector -m32 -o bof4_32
+
+	gcc bof4_64.c -z execstack -fno-stack-protector -o bof4_64
